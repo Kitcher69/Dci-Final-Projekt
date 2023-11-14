@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  padding-top: 40px;
+  background-image: url("./images/pietsmiet-anzug.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(55, 46, 47, 255);
+  color: darkorange;
+}
+
+/* h1-h3 */
+
+h1 {
+  background-color: rgba(0, 128, 0, 0.774);
+  font-size: 75px;
+  margin: 30px auto;
+  padding: 20px;
+  width: fit-content;
+  height: 8vh;
+  border-radius: 14px;
+  color: black;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+h3 {
+  color: aqua;
+  font-size: 30px;
+}
+
+/* Sections */
+
+section {
+  border: 2px solid grey;
+  margin: 40px;
+  padding: 50px 10px;
+  background-color: rgba(0, 128, 0, 0.87);
+  border-radius: 44px;
+}
+
+.section-left {
+  width: 60vw;
+  font-size: 22px;
+}
+
+.section-right-videos {
+  width: 60vw;
+  margin-left: 36%;
+  font-size: 22px;
+}
+.section-right-friendlyfire {
+  width: 70vw;
+  margin-left: 25%;
+  font-size: 22px;
+  color: rgb(153, 255, 1);
+}
+
+/* IDs */
+
+#streams {
+  position: relative;
+}
+
+#website {
+  position: relative;
+}
+
+/* Main Nav */
+
+.main-nav {
+  background-color: rgba(0, 128, 0, 0.795);
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.main-nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.main-nav a:hover {
+  color: rgb(2, 1, 1);
+}
+
+/* nav color hover */
+
+nav a:nth-of-type(2):hover {
+  color: grey;
+}
+
+nav a:nth-of-type(3):hover {
+  color: red;
+}
+
+nav a:nth-of-type(4):hover {
+  color: purple;
+}
+
+nav a:nth-of-type(5):hover {
+  color: darkorange;
+}
+
+nav a:nth-of-type(6):hover {
+  color: rgb(153, 255, 1);
+}
+
+/* Nav videos mit dropdown, ungeordnete liste
+ eventuell z-index */
+
+nav {
+  height: 2vh;
+}
+
+#about {
+  height: 70vh;
+}
+
+/* ICONS */
+
+.twitch {
+  font-size: 250px;
+  position: absolute;
+  top: 1100px;
+  left: 120px;
+}
+
+.youtube {
+  font-size: 70px;
+}
+
+/* IMAGES */
+
+.watchbuddy {
+  position: absolute;
+  top: 522px;
+  left: 500px;
+}
+
+.logo {
+  left: 100px;
+}
+
+/* Iframes */
+
+.friendlyfire {
+  margin-left: 40%;
+}
+
+.first {
+  margin: 30px 300px;
+}
+
+.watchbuddy {
+  position: absolute;
+  top: 522px;
+  left: 340px;
+}
